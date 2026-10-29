@@ -173,3 +173,42 @@
         display: none;
     }
 }
+.r{
+    width: 100%;
+    height: 750px;
+    background-color: #252B42;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 18px;
+}
+.r p{
+    padding-top: 30px;
+}
+.rr{
+    height: 500px;
+    max-width: 900px;
+    background-color: white;
+    margin-left: 300px;
+    margin-top: 50px;
+    color: black;
+}
+.rr img{
+    padding-left: 0px;
+    padding-top: 20px;
+}
+.rr p{
+    padding-top: 30px;
+}
+@media(max-width:500px){
+    .r{
+        padding-left: 0px;
+        text-align: center;
+        flex-direction: column;
+    }
+    .rr{
+        width: auto;
+        text-align: center;
+        margin-left: 0px;
+    }
+}
